@@ -15,16 +15,16 @@ The press function updates the contents of the text entry box while equalpress e
 We next need to create a table-like structure in which our widgets will be placed.
 We do this by using grid method which takes three arguments: columnspan , ipadx , and rowspan .
 These parameters specify how many columns wide, how many rows high, and how many columns per row respectively should be used in our table layout.
-We set columnspan to 4 , meaning that there will be four columns in our table, iPad width divided by 2 (70), multiplied by 1 for each row in our table (iPad height divided
+We set columnspan to 4 , meaning that there will be four columns in our table.
 The code creates a simple calculator using the Tkinter module.
-First, the code imports everything from the Tkinter module.
+
 Next, the code creates two global variables: expression and total.
 The press() function is used to update the expression variable in the text entry box.
 The equalpress() function is used to evaluate the final expression.
 Finally, the clear() function is used to clear the contents of the text entry box.
 Next, the driver code is created.
 In this code, if __name__ == “__main__”: is executed which will create a GUI window and set its background color to light green and its title to Simple Calculator.
-Next, the geometry() method is used to set the size of the GUI window (270
+
 The code starts with a few basic objects: a Button object, which has properties for text, font, background color, and command; and a grid object.
 The first three buttons (button1 through button3) each have their own individual commands associated with them.
 When the user clicks on one of these buttons, the corresponding command is executed.
